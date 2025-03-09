@@ -26,7 +26,7 @@ namespace winrt::Windows::Xbox::System::implementation
     hstring UserDisplayInfo::Gamertag()
     {
         printf("!!!!! Windows.Xbox.System.UserDisplayInfo [Gamertag] NOT IMPLEMENTED !!!!\n");
-		hstring gamertag = L"durangler" + m_gamertag;
+		hstring gamertag = L"j3ku8" + m_gamertag;
         return gamertag;
     }
     uint32_t UserDisplayInfo::GamerScore()
@@ -42,7 +42,7 @@ namespace winrt::Windows::Xbox::System::implementation
     hstring UserDisplayInfo::GameDisplayName()
     {
         printf("!!!!! Windows.Xbox.System.UserDisplayInfo [GameDisplayName] NOT IMPLEMENTED !!!!\n");
-        hstring gamertag = L"durangler" + m_gamertag;
+        hstring gamertag = L"j3ku8" + m_gamertag;
         return gamertag;
     }
     int32_t UserDisplayInfo::Reputation()
